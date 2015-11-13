@@ -1,0 +1,10 @@
+framework module TrendMDWidget {
+  umbrella header "TrendMDWidget.h"
+
+  export *
+  module * { export * }
+}
+
+module TrendMDWidget.Swift {
+    header "TrendMDWidget-Swift.h"
+}
